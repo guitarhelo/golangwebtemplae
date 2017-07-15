@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>User List</title>
+<style>
+
+</style>
+</head>
+<body>
+<h1>
+  Search User
+</h1>
+
+<form action="/search/1" method="post">
+  <p>user name: <input type="text" name="name" >  password: <input type="text" name="password"></p>
+  <p>address: <input type="text" name="address">  age 范围: <input type="number" min="1" max="120" name="age_begin" > 到 <input type="number" min="1" max="120" name="age_end" ></p>
+  <p>status 
+
+   <fieldset>
+		<legend>What is User Status</legend>
+			<input type="radio" name="status" value="1" />Enabled<br />
+			<input type="radio" name="status" value="0" />Disabled<br />
+			
+	</fieldset>
+
+
+  <input type="submit" value="Search" />
+</form>
+
+<h1>
+  User List Demo 
+</h1>
+
+<table border="0">
+  <tr>
+    <th>Id</th>
+    <th>User Name</th>
+    <th>Password</th>
+	 <th>Address</th>
+	 <th>CreateTime</th>
+	 <th>age</th>
+	 <th>状态</th>
+	
+	  <th>操作</th>
+  </tr>
+{{ range .Users }}
+  <tr>
+    <td>{{ .Id }}</td>
+    <td><a href="/user/{{.Id}}">{{ .Name }}</a></td>
+	<td>{{ .Password }}</td>
+	 <td>{{ .Address }}</td>
+	
+	 <td>{{ .CreateTime }}</td>
+	 <td>{{ .Age }}</td>
+	{{if .Enabled}} <td> enabled</td> {{else}} <td>disabled</td> {{end}}  
+	 <td><a href="/edit/{{.Id}}">Edit</a> | Remove | <a href="/user/{{.Id}}">View</a></td>
+  </tr>
+{{ end }}
+</table>
+
+        
+
+
+<h2>total: {{.Total}}</h2> <h2>current_page: {{.Current_Page}}  max {{.TotalPages}}</h2> 
+{{ range .PageJumpLink }}
+<a href="{{.PageUrl}}/{{.PageNum}}">{{.PageNum}} </a> 
+
+{{ end }}
+{{with $X := .Current_Page}}{{end}}
+{{ if .IsFirstPage  }}
+<a href='/list/{{.Next_page}}'>next page </a>
+{{else if eq .IsLastPage false}}
+  <a href='/list/{{.Last_page}}'>last page </a> | <a href='/list/{{.Next_page}}'>next page </a>
+{{else}}
+  <a href='/list/{{.Last_page}}'>last page </a>
+{{end}}
+
+
+<h1>{{.IsFirstPage}}</h1>
+<h1>{{.IsLastPage}}</h1>
+
+</body>
+</html>

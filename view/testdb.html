@@ -1,0 +1,15 @@
+
+
+ <ul>
+ {{.Title}}   &nbsp;&nbsp; Total: {{.TotalRecords}}
+  </ul>
+
+
+   <ul>
+  {{ range .Result }}
+    <li> {{ .Id }}  {{ .Name }} {{ .Password }} {{.CreateTime}} {{.Address}} {{.Age }}</li>
+  {{ end }}
+  </ul>
+  
+ 
+  </ul>

@@ -1,0 +1,12 @@
+<h2>Edit User:  {{.Id}}</h2>  
+<form action="/update" method="post">
+  <p>user name: <input type="text" name="name" value={{.Name}}></p>
+  <p>password: <input type="text" name="password" value={{.Password}}></p>
+  <p>address: <input type="text" name="address" value="demo"></p>
+  <p>age: <input type="text" name="age" value={{.Age}}></p>
+          <input type="hidden" name="user_id" value={{.Id}}>
+
+
+
+  <input type="submit" value="Edit" />
+</form>

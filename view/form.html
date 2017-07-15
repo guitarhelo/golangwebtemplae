@@ -1,0 +1,12 @@
+
+<h2>{{ .Message }}</h2>  
+<form action="/create" method="post">
+  <p>user name: <input type="text" name="name" required="required"/></p>
+  <p>password: <input type="text" name="password" required="required" /></p>
+  <p>address: <input type="text" name="address" required="required"/></p>
+  <p>age: <input type="number" name="age" min="1" max="120"/></p>
+
+
+
+  <input type="submit" value="Create" />
+</form>

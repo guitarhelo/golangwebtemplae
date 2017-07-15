@@ -1,0 +1,580 @@
+﻿/*! normalize.css v3.0.2 | MIT License | git.io/normalize */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{-moz-box-sizing:border-box;box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */@media print{*,*:before,*:after{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}abbr[title]:after{content:" (" attr(title) ")"}a[href^="#"]:after,a[href^="javascript:"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}select{background:#fff !important}.navbar{display:none}.btn>.caret,.dropup>.btn>.caret{border-top-color:#000 !important}.label{border:1px solid #000}.table{border-collapse:collapse !important}.table td,.table th{background-color:#fff !important}.table-bordered th,.table-bordered td{border:1px solid #ddd !important}}@font-face{font-family:'Glyphicons Halflings';src:url("../../fonts/glyphicons-halflings-regular.eot");src:url("../../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"),url("../../fonts/glyphicons-halflings-regular.woff") format("woff"),url("../../fonts/glyphicons-halflings-regular.ttf") format("truetype"),url("../../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg")}.glyphicon{position:relative;top:1px;display:inline-block;font-family:'Glyphicons Halflings';font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.glyphicon-asterisk:before{content:"\2a"}.glyphicon-plus:before{content:"\2b"}.glyphicon-euro:before,.glyphicon-eur:before{content:"\20ac"}.glyphicon-minus:before{content:"\2212"}.glyphicon-cloud:before{content:"\2601"}.glyphicon-envelope:before{content:"\2709"}.glyphicon-pencil:before{content:"\270f"}.glyphicon-glass:before{content:"\e001"}.glyphicon-music:before{content:"\e002"}.glyphicon-search:before{content:"\e003"}.glyphicon-heart:before{content:"\e005"}.glyphicon-star:before{content:"\e006"}.glyphicon-star-empty:before{content:"\e007"}.glyphicon-user:before{content:"\e008"}.glyphicon-film:before{content:"\e009"}.glyphicon-th-large:before{content:"\e010"}.glyphicon-th:before{content:"\e011"}.glyphicon-th-list:before{content:"\e012"}.glyphicon-ok:before{content:"\e013"}.glyphicon-remove:before{content:"\e014"}.glyphicon-zoom-in:before{content:"\e015"}.glyphicon-zoom-out:before{content:"\e016"}.glyphicon-off:before{content:"\e017"}.glyphicon-signal:before{content:"\e018"}.glyphicon-cog:before{content:"\e019"}.glyphicon-trash:before{content:"\e020"}.glyphicon-home:before{content:"\e021"}.glyphicon-file:before{content:"\e022"}.glyphicon-time:before{content:"\e023"}.glyphicon-road:before{content:"\e024"}.glyphicon-download-alt:before{content:"\e025"}.glyphicon-download:before{content:"\e026"}.glyphicon-upload:before{content:"\e027"}.glyphicon-inbox:before{content:"\e028"}.glyphicon-play-circle:before{content:"\e029"}.glyphicon-repeat:before{content:"\e030"}.glyphicon-refresh:before{content:"\e031"}.glyphicon-list-alt:before{content:"\e032"}.glyphicon-lock:before{content:"\e033"}.glyphicon-flag:before{content:"\e034"}.glyphicon-headphones:before{content:"\e035"}.glyphicon-volume-off:before{content:"\e036"}.glyphicon-volume-down:before{content:"\e037"}.glyphicon-volume-up:before{content:"\e038"}.glyphicon-qrcode:before{content:"\e039"}.glyphicon-barcode:before{content:"\e040"}.glyphicon-tag:before{content:"\e041"}.glyphicon-tags:before{content:"\e042"}.glyphicon-book:before{content:"\e043"}.glyphicon-bookmark:before{content:"\e044"}.glyphicon-print:before{content:"\e045"}.glyphicon-camera:before{content:"\e046"}.glyphicon-font:before{content:"\e047"}.glyphicon-bold:before{content:"\e048"}.glyphicon-italic:before{content:"\e049"}.glyphicon-text-height:before{content:"\e050"}.glyphicon-text-width:before{content:"\e051"}.glyphicon-align-left:before{content:"\e052"}.glyphicon-align-center:before{content:"\e053"}.glyphicon-align-right:before{content:"\e054"}.glyphicon-align-justify:before{content:"\e055"}.glyphicon-list:before{content:"\e056"}.glyphicon-indent-left:before{content:"\e057"}.glyphicon-indent-right:before{content:"\e058"}.glyphicon-facetime-video:before{content:"\e059"}.glyphicon-picture:before{content:"\e060"}.glyphicon-map-marker:before{content:"\e062"}.glyphicon-adjust:before{content:"\e063"}.glyphicon-tint:before{content:"\e064"}.glyphicon-edit:before{content:"\e065"}.glyphicon-share:before{content:"\e066"}.glyphicon-check:before{content:"\e067"}.glyphicon-move:before{content:"\e068"}.glyphicon-step-backward:before{content:"\e069"}.glyphicon-fast-backward:before{content:"\e070"}.glyphicon-backward:before{content:"\e071"}.glyphicon-play:before{content:"\e072"}.glyphicon-pause:before{content:"\e073"}.glyphicon-stop:before{content:"\e074"}.glyphicon-forward:before{content:"\e075"}.glyphicon-fast-forward:before{content:"\e076"}.glyphicon-step-forward:before{content:"\e077"}.glyphicon-eject:before{content:"\e078"}.glyphicon-chevron-left:before{content:"\e079"}.glyphicon-chevron-right:before{content:"\e080"}.glyphicon-plus-sign:before{content:"\e081"}.glyphicon-minus-sign:before{content:"\e082"}.glyphicon-remove-sign:before{content:"\e083"}.glyphicon-ok-sign:before{content:"\e084"}.glyphicon-question-sign:before{content:"\e085"}.glyphicon-info-sign:before{content:"\e086"}.glyphicon-screenshot:before{content:"\e087"}.glyphicon-remove-circle:before{content:"\e088"}.glyphicon-ok-circle:before{content:"\e089"}.glyphicon-ban-circle:before{content:"\e090"}.glyphicon-arrow-left:before{content:"\e091"}.glyphicon-arrow-right:before{content:"\e092"}.glyphicon-arrow-up:before{content:"\e093"}.glyphicon-arrow-down:before{content:"\e094"}.glyphicon-share-alt:before{content:"\e095"}.glyphicon-resize-full:before{content:"\e096"}.glyphicon-resize-small:before{content:"\e097"}.glyphicon-exclamation-sign:before{content:"\e101"}.glyphicon-gift:before{content:"\e102"}.glyphicon-leaf:before{content:"\e103"}.glyphicon-fire:before{content:"\e104"}.glyphicon-eye-open:before{content:"\e105"}.glyphicon-eye-close:before{content:"\e106"}.glyphicon-warning-sign:before{content:"\e107"}.glyphicon-plane:before{content:"\e108"}.glyphicon-calendar:before{content:"\e109"}.glyphicon-random:before{content:"\e110"}.glyphicon-comment:before{content:"\e111"}.glyphicon-magnet:before{content:"\e112"}.glyphicon-chevron-up:before{content:"\e113"}.glyphicon-chevron-down:before{content:"\e114"}.glyphicon-retweet:before{content:"\e115"}.glyphicon-shopping-cart:before{content:"\e116"}.glyphicon-folder-close:before{content:"\e117"}.glyphicon-folder-open:before{content:"\e118"}.glyphicon-resize-vertical:before{content:"\e119"}.glyphicon-resize-horizontal:before{content:"\e120"}.glyphicon-hdd:before{content:"\e121"}.glyphicon-bullhorn:before{content:"\e122"}.glyphicon-bell:before{content:"\e123"}.glyphicon-certificate:before{content:"\e124"}.glyphicon-thumbs-up:before{content:"\e125"}.glyphicon-thumbs-down:before{content:"\e126"}.glyphicon-hand-right:before{content:"\e127"}.glyphicon-hand-left:before{content:"\e128"}.glyphicon-hand-up:before{content:"\e129"}.glyphicon-hand-down:before{content:"\e130"}.glyphicon-circle-arrow-right:before{content:"\e131"}.glyphicon-circle-arrow-left:before{content:"\e132"}.glyphicon-circle-arrow-up:before{content:"\e133"}.glyphicon-circle-arrow-down:before{content:"\e134"}.glyphicon-globe:before{content:"\e135"}.glyphicon-wrench:before{content:"\e136"}.glyphicon-tasks:before{content:"\e137"}.glyphicon-filter:before{content:"\e138"}.glyphicon-briefcase:before{content:"\e139"}.glyphicon-fullscreen:before{content:"\e140"}.glyphicon-dashboard:before{content:"\e141"}.glyphicon-paperclip:before{content:"\e142"}.glyphicon-heart-empty:before{content:"\e143"}.glyphicon-link:before{content:"\e144"}.glyphicon-phone:before{content:"\e145"}.glyphicon-pushpin:before{content:"\e146"}.glyphicon-usd:before{content:"\e148"}.glyphicon-gbp:before{content:"\e149"}.glyphicon-sort:before{content:"\e150"}.glyphicon-sort-by-alphabet:before{content:"\e151"}.glyphicon-sort-by-alphabet-alt:before{content:"\e152"}.glyphicon-sort-by-order:before{content:"\e153"}.glyphicon-sort-by-order-alt:before{content:"\e154"}.glyphicon-sort-by-attributes:before{content:"\e155"}.glyphicon-sort-by-attributes-alt:before{content:"\e156"}.glyphicon-unchecked:before{content:"\e157"}.glyphicon-expand:before{content:"\e158"}.glyphicon-collapse-down:before{content:"\e159"}.glyphicon-collapse-up:before{content:"\e160"}.glyphicon-log-in:before{content:"\e161"}.glyphicon-flash:before{content:"\e162"}.glyphicon-log-out:before{content:"\e163"}.glyphicon-new-window:before{content:"\e164"}.glyphicon-record:before{content:"\e165"}.glyphicon-save:before{content:"\e166"}.glyphicon-open:before{content:"\e167"}.glyphicon-saved:before{content:"\e168"}.glyphicon-import:before{content:"\e169"}.glyphicon-export:before{content:"\e170"}.glyphicon-send:before{content:"\e171"}.glyphicon-floppy-disk:before{content:"\e172"}.glyphicon-floppy-saved:before{content:"\e173"}.glyphicon-floppy-remove:before{content:"\e174"}.glyphicon-floppy-save:before{content:"\e175"}.glyphicon-floppy-open:before{content:"\e176"}.glyphicon-credit-card:before{content:"\e177"}.glyphicon-transfer:before{content:"\e178"}.glyphicon-cutlery:before{content:"\e179"}.glyphicon-header:before{content:"\e180"}.glyphicon-compressed:before{content:"\e181"}.glyphicon-earphone:before{content:"\e182"}.glyphicon-phone-alt:before{content:"\e183"}.glyphicon-tower:before{content:"\e184"}.glyphicon-stats:before{content:"\e185"}.glyphicon-sd-video:before{content:"\e186"}.glyphicon-hd-video:before{content:"\e187"}.glyphicon-subtitles:before{content:"\e188"}.glyphicon-sound-stereo:before{content:"\e189"}.glyphicon-sound-dolby:before{content:"\e190"}.glyphicon-sound-5-1:before{content:"\e191"}.glyphicon-sound-6-1:before{content:"\e192"}.glyphicon-sound-7-1:before{content:"\e193"}.glyphicon-copyright-mark:before{content:"\e194"}.glyphicon-registration-mark:before{content:"\e195"}.glyphicon-cloud-download:before{content:"\e197"}.glyphicon-cloud-upload:before{content:"\e198"}.glyphicon-tree-conifer:before{content:"\e199"}.glyphicon-tree-deciduous:before{content:"\e200"}*{-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after{-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:transparent}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.428571429;color:#333;background-color:#fff}input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#337ab7;text-decoration:none}a:hover,a:focus{color:#23527c;text-decoration:underline}a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}figure{margin:0}img{vertical-align:middle}.img-responsive{display:block;max-width:100%;height:auto}.img-rounded{border-radius:6px}.img-thumbnail{padding:4px;line-height:1.428571429;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out;display:inline-block;max-width:100%;height:auto}.img-circle{border-radius:50%}hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:inherit;font-weight:500;line-height:1.1;color:inherit}h1 small,h1 .small,h2 small,h2 .small,h3 small,h3 .small,h4 small,h4 .small,h5 small,h5 .small,h6 small,h6 .small,.h1 small,.h1 .small,.h2 small,.h2 .small,.h3 small,.h3 .small,.h4 small,.h4 .small,.h5 small,.h5 .small,.h6 small,.h6 .small{font-weight:normal;line-height:1;color:#777}h1,.h1,h2,.h2,h3,.h3{margin-top:20px;margin-bottom:10px}h1 small,h1 .small,.h1 small,.h1 .small,h2 small,h2 .small,.h2 small,.h2 .small,h3 small,h3 .small,.h3 small,.h3 .small{font-size:65%}h4,.h4,h5,.h5,h6,.h6{margin-top:10px;margin-bottom:10px}h4 small,h4 .small,.h4 small,.h4 .small,h5 small,h5 .small,.h5 small,.h5 .small,h6 small,h6 .small,.h6 small,.h6 .small{font-size:75%}h1,.h1{font-size:36px}h2,.h2{font-size:30px}h3,.h3{font-size:24px}h4,.h4{font-size:18px}h5,.h5{font-size:14px}h6,.h6{font-size:12px}p{margin:0 0 10px}.lead{margin-bottom:20px;font-size:16px;font-weight:300;line-height:1.4}@media (min-width: 768px){.lead{font-size:21px}}small,.small{font-size:85%}mark,.mark{background-color:#fcf8e3;padding:.2em}.text-left{text-align:left}.text-right{text-align:right}.text-center{text-align:center}.text-justify{text-align:justify}.text-nowrap{white-space:nowrap}.text-lowercase{text-transform:lowercase}.text-uppercase{text-transform:uppercase}.text-capitalize{text-transform:capitalize}.text-muted{color:#777}.text-primary{color:#337ab7}a.text-primary:hover{color:#286090}.text-success{color:#3c763d}a.text-success:hover{color:#2b542c}.text-info{color:#31708f}a.text-info:hover{color:#245269}.text-warning{color:#8a6d3b}a.text-warning:hover{color:#66512c}.text-danger{color:#a94442}a.text-danger:hover{color:#843534}.bg-primary{color:#fff}.bg-primary{background-color:#337ab7}a.bg-primary:hover{background-color:#286090}.bg-success{background-color:#dff0d8}a.bg-success:hover{background-color:#c1e2b3}.bg-info{background-color:#d9edf7}a.bg-info:hover{background-color:#afd9ee}.bg-warning{background-color:#fcf8e3}a.bg-warning:hover{background-color:#f7ecb5}.bg-danger{background-color:#f2dede}a.bg-danger:hover{background-color:#e4b9b9}.page-header{padding-bottom:9px;margin:40px 0 20px;border-bottom:1px solid #eee}ul,ol{margin-top:0;margin-bottom:10px}ul ul,ul ol,ol ul,ol ol{margin-bottom:0}.list-unstyled{padding-left:0;list-style:none}.list-inline{padding-left:0;list-style:none;margin-left:-5px}.list-inline>li{display:inline-block;padding-left:5px;padding-right:5px}dl{margin-top:0;margin-bottom:20px}dt,dd{line-height:1.428571429}dt{font-weight:bold}dd{margin-left:0}.dl-horizontal dd:before,.dl-horizontal dd:after{content:" ";display:table}.dl-horizontal dd:after{clear:both}@media (min-width: 992px){.dl-horizontal dt{float:left;width:160px;clear:left;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.dl-horizontal dd{margin-left:180px}}abbr[title],abbr[data-original-title]{cursor:help;border-bottom:1px dotted #777}.initialism{font-size:90%;text-transform:uppercase}blockquote{padding:10px 20px;margin:0 0 20px;font-size:17.5px;border-left:5px solid #eee}blockquote p:last-child,blockquote ul:last-child,blockquote ol:last-child{margin-bottom:0}blockquote footer,blockquote small,blockquote .small{display:block;font-size:80%;line-height:1.428571429;color:#777}blockquote footer:before,blockquote small:before,blockquote .small:before{content:'\2014 \00A0'}.blockquote-reverse,blockquote.pull-right{padding-right:15px;padding-left:0;border-right:5px solid #eee;border-left:0;text-align:right}.blockquote-reverse footer:before,.blockquote-reverse small:before,.blockquote-reverse .small:before,blockquote.pull-right footer:before,blockquote.pull-right small:before,blockquote.pull-right .small:before{content:''}.blockquote-reverse footer:after,.blockquote-reverse small:after,.blockquote-reverse .small:after,blockquote.pull-right footer:after,blockquote.pull-right small:after,blockquote.pull-right .small:after{content:'\00A0 \2014'}address{margin-bottom:20px;font-style:normal;line-height:1.428571429}code,kbd,pre,samp{font-family:Menlo,Monaco,Consolas,"Courier New",monospace}code{padding:2px 4px;font-size:90%;color:#c7254e;background-color:#f9f2f4;border-radius:4px}kbd{padding:2px 4px;font-size:90%;color:#fff;background-color:#333;border-radius:3px;box-shadow:inset 0 -1px 0 rgba(0,0,0,0.25)}kbd kbd{padding:0;font-size:100%;font-weight:bold;box-shadow:none}pre{display:block;padding:9.5px;margin:0 0 10px;font-size:13px;line-height:1.428571429;word-break:break-all;word-wrap:break-word;color:#333;background-color:#f5f5f5;border:1px solid #ccc;border-radius:4px}pre code{padding:0;font-size:inherit;color:inherit;white-space:pre-wrap;background-color:transparent;border-radius:0}.pre-scrollable{max-height:340px;overflow-y:scroll}.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}.container:before,.container:after{content:" ";display:table}.container:after{clear:both}@media (min-width: 768px){.container{width:750px}}@media (min-width: 992px){.container{width:970px}}@media (min-width: 1200px){.container{width:1170px}}.container-fluid{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}.container-fluid:before,.container-fluid:after{content:" ";display:table}.container-fluid:after{clear:both}.row{margin-left:-15px;margin-right:-15px}.row:before,.row:after{content:" ";display:table}.row:after{clear:both}.col-xs-1,.col-sm-1,.col-md-1,.col-lg-1,.col-xs-2,.col-sm-2,.col-md-2,.col-lg-2,.col-xs-3,.col-sm-3,.col-md-3,.col-lg-3,.col-xs-4,.col-sm-4,.col-md-4,.col-lg-4,.col-xs-5,.col-sm-5,.col-md-5,.col-lg-5,.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6,.col-xs-7,.col-sm-7,.col-md-7,.col-lg-7,.col-xs-8,.col-sm-8,.col-md-8,.col-lg-8,.col-xs-9,.col-sm-9,.col-md-9,.col-lg-9,.col-xs-10,.col-sm-10,.col-md-10,.col-lg-10,.col-xs-11,.col-sm-11,.col-md-11,.col-lg-11,.col-xs-12,.col-sm-12,.col-md-12,.col-lg-12{position:relative;min-height:1px;padding-left:15px;padding-right:15px}.col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12{float:left}.col-xs-1{width:8.3333333333%}.col-xs-2{width:16.6666666667%}.col-xs-3{width:25%}.col-xs-4{width:33.3333333333%}.col-xs-5{width:41.6666666667%}.col-xs-6{width:50%}.col-xs-7{width:58.3333333333%}.col-xs-8{width:66.6666666667%}.col-xs-9{width:75%}.col-xs-10{width:83.3333333333%}.col-xs-11{width:91.6666666667%}.col-xs-12{width:100%}.col-xs-pull-0{right:auto}.col-xs-pull-1{right:8.3333333333%}.col-xs-pull-2{right:16.6666666667%}.col-xs-pull-3{right:25%}.col-xs-pull-4{right:33.3333333333%}.col-xs-pull-5{right:41.6666666667%}.col-xs-pull-6{right:50%}.col-xs-pull-7{right:58.3333333333%}.col-xs-pull-8{right:66.6666666667%}.col-xs-pull-9{right:75%}.col-xs-pull-10{right:83.3333333333%}.col-xs-pull-11{right:91.6666666667%}.col-xs-pull-12{right:100%}.col-xs-push-0{left:auto}.col-xs-push-1{left:8.3333333333%}.col-xs-push-2{left:16.6666666667%}.col-xs-push-3{left:25%}.col-xs-push-4{left:33.3333333333%}.col-xs-push-5{left:41.6666666667%}.col-xs-push-6{left:50%}.col-xs-push-7{left:58.3333333333%}.col-xs-push-8{left:66.6666666667%}.col-xs-push-9{left:75%}.col-xs-push-10{left:83.3333333333%}.col-xs-push-11{left:91.6666666667%}.col-xs-push-12{left:100%}.col-xs-offset-0{margin-left:0%}.col-xs-offset-1{margin-left:8.3333333333%}.col-xs-offset-2{margin-left:16.6666666667%}.col-xs-offset-3{margin-left:25%}.col-xs-offset-4{margin-left:33.3333333333%}.col-xs-offset-5{margin-left:41.6666666667%}.col-xs-offset-6{margin-left:50%}.col-xs-offset-7{margin-left:58.3333333333%}.col-xs-offset-8{margin-left:66.6666666667%}.col-xs-offset-9{margin-left:75%}.col-xs-offset-10{margin-left:83.3333333333%}.col-xs-offset-11{margin-left:91.6666666667%}.col-xs-offset-12{margin-left:100%}@media (min-width: 768px){.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12{float:left}.col-sm-1{width:8.3333333333%}.col-sm-2{width:16.6666666667%}.col-sm-3{width:25%}.col-sm-4{width:33.3333333333%}.col-sm-5{width:41.6666666667%}.col-sm-6{width:50%}.col-sm-7{width:58.3333333333%}.col-sm-8{width:66.6666666667%}.col-sm-9{width:75%}.col-sm-10{width:83.3333333333%}.col-sm-11{width:91.6666666667%}.col-sm-12{width:100%}.col-sm-pull-0{right:auto}.col-sm-pull-1{right:8.3333333333%}.col-sm-pull-2{right:16.6666666667%}.col-sm-pull-3{right:25%}.col-sm-pull-4{right:33.3333333333%}.col-sm-pull-5{right:41.6666666667%}.col-sm-pull-6{right:50%}.col-sm-pull-7{right:58.3333333333%}.col-sm-pull-8{right:66.6666666667%}.col-sm-pull-9{right:75%}.col-sm-pull-10{right:83.3333333333%}.col-sm-pull-11{right:91.6666666667%}.col-sm-pull-12{right:100%}.col-sm-push-0{left:auto}.col-sm-push-1{left:8.3333333333%}.col-sm-push-2{left:16.6666666667%}.col-sm-push-3{left:25%}.col-sm-push-4{left:33.3333333333%}.col-sm-push-5{left:41.6666666667%}.col-sm-push-6{left:50%}.col-sm-push-7{left:58.3333333333%}.col-sm-push-8{left:66.6666666667%}.col-sm-push-9{left:75%}.col-sm-push-10{left:83.3333333333%}.col-sm-push-11{left:91.6666666667%}.col-sm-push-12{left:100%}.col-sm-offset-0{margin-left:0%}.col-sm-offset-1{margin-left:8.3333333333%}.col-sm-offset-2{margin-left:16.6666666667%}.col-sm-offset-3{margin-left:25%}.col-sm-offset-4{margin-left:33.3333333333%}.col-sm-offset-5{margin-left:41.6666666667%}.col-sm-offset-6{margin-left:50%}.col-sm-offset-7{margin-left:58.3333333333%}.col-sm-offset-8{margin-left:66.6666666667%}.col-sm-offset-9{margin-left:75%}.col-sm-offset-10{margin-left:83.3333333333%}.col-sm-offset-11{margin-left:91.6666666667%}.col-sm-offset-12{margin-left:100%}}@media (min-width: 992px){.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{float:left}.col-md-1{width:8.3333333333%}.col-md-2{width:16.6666666667%}.col-md-3{width:25%}.col-md-4{width:33.3333333333%}.col-md-5{width:41.6666666667%}.col-md-6{width:50%}.col-md-7{width:58.3333333333%}.col-md-8{width:66.6666666667%}.col-md-9{width:75%}.col-md-10{width:83.3333333333%}.col-md-11{width:91.6666666667%}.col-md-12{width:100%}.col-md-pull-0{right:auto}.col-md-pull-1{right:8.3333333333%}.col-md-pull-2{right:16.6666666667%}.col-md-pull-3{right:25%}.col-md-pull-4{right:33.3333333333%}.col-md-pull-5{right:41.6666666667%}.col-md-pull-6{right:50%}.col-md-pull-7{right:58.3333333333%}.col-md-pull-8{right:66.6666666667%}.col-md-pull-9{right:75%}.col-md-pull-10{right:83.3333333333%}.col-md-pull-11{right:91.6666666667%}.col-md-pull-12{right:100%}.col-md-push-0{left:auto}.col-md-push-1{left:8.3333333333%}.col-md-push-2{left:16.6666666667%}.col-md-push-3{left:25%}.col-md-push-4{left:33.3333333333%}.col-md-push-5{left:41.6666666667%}.col-md-push-6{left:50%}.col-md-push-7{left:58.3333333333%}.col-md-push-8{left:66.6666666667%}.col-md-push-9{left:75%}.col-md-push-10{left:83.3333333333%}.col-md-push-11{left:91.6666666667%}.col-md-push-12{left:100%}.col-md-offset-0{margin-left:0%}.col-md-offset-1{margin-left:8.3333333333%}.col-md-offset-2{margin-left:16.6666666667%}.col-md-offset-3{margin-left:25%}.col-md-offset-4{margin-left:33.3333333333%}.col-md-offset-5{margin-left:41.6666666667%}.col-md-offset-6{margin-left:50%}.col-md-offset-7{margin-left:58.3333333333%}.col-md-offset-8{margin-left:66.6666666667%}.col-md-offset-9{margin-left:75%}.col-md-offset-10{margin-left:83.3333333333%}.col-md-offset-11{margin-left:91.6666666667%}.col-md-offset-12{margin-left:100%}}@media (min-width: 1200px){.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{float:left}.col-lg-1{width:8.3333333333%}.col-lg-2{width:16.6666666667%}.col-lg-3{width:25%}.col-lg-4{width:33.3333333333%}.col-lg-5{width:41.6666666667%}.col-lg-6{width:50%}.col-lg-7{width:58.3333333333%}.col-lg-8{width:66.6666666667%}.col-lg-9{width:75%}.col-lg-10{width:83.3333333333%}.col-lg-11{width:91.6666666667%}.col-lg-12{width:100%}.col-lg-pull-0{right:auto}.col-lg-pull-1{right:8.3333333333%}.col-lg-pull-2{right:16.6666666667%}.col-lg-pull-3{right:25%}.col-lg-pull-4{right:33.3333333333%}.col-lg-pull-5{right:41.6666666667%}.col-lg-pull-6{right:50%}.col-lg-pull-7{right:58.3333333333%}.col-lg-pull-8{right:66.6666666667%}.col-lg-pull-9{right:75%}.col-lg-pull-10{right:83.3333333333%}.col-lg-pull-11{right:91.6666666667%}.col-lg-pull-12{right:100%}.col-lg-push-0{left:auto}.col-lg-push-1{left:8.3333333333%}.col-lg-push-2{left:16.6666666667%}.col-lg-push-3{left:25%}.col-lg-push-4{left:33.3333333333%}.col-lg-push-5{left:41.6666666667%}.col-lg-push-6{left:50%}.col-lg-push-7{left:58.3333333333%}.col-lg-push-8{left:66.6666666667%}.col-lg-push-9{left:75%}.col-lg-push-10{left:83.3333333333%}.col-lg-push-11{left:91.6666666667%}.col-lg-push-12{left:100%}.col-lg-offset-0{margin-left:0%}.col-lg-offset-1{margin-left:8.3333333333%}.col-lg-offset-2{margin-left:16.6666666667%}.col-lg-offset-3{margin-left:25%}.col-lg-offset-4{margin-left:33.3333333333%}.col-lg-offset-5{margin-left:41.6666666667%}.col-lg-offset-6{margin-left:50%}.col-lg-offset-7{margin-left:58.3333333333%}.col-lg-offset-8{margin-left:66.6666666667%}.col-lg-offset-9{margin-left:75%}.col-lg-offset-10{margin-left:83.3333333333%}.col-lg-offset-11{margin-left:91.6666666667%}.col-lg-offset-12{margin-left:100%}}table{background-color:transparent}caption{padding-top:8px;padding-bottom:8px;color:#777;text-align:left}th{text-align:left}.table{width:100%;max-width:100%;margin-bottom:20px}.table>thead>tr>th,.table>thead>tr>td,.table>tbody>tr>th,.table>tbody>tr>td,.table>tfoot>tr>th,.table>tfoot>tr>td{padding:8px;line-height:1.428571429;vertical-align:top;border-top:1px solid #ddd}.table>thead>tr>th{vertical-align:bottom;border-bottom:2px solid #ddd}.table>caption+thead>tr:first-child>th,.table>caption+thead>tr:first-child>td,.table>colgroup+thead>tr:first-child>th,.table>colgroup+thead>tr:first-child>td,.table>thead:first-child>tr:first-child>th,.table>thead:first-child>tr:first-child>td{border-top:0}.table>tbody+tbody{border-top:2px solid #ddd}.table .table{background-color:#fff}.table-condensed>thead>tr>th,.table-condensed>thead>tr>td,.table-condensed>tbody>tr>th,.table-condensed>tbody>tr>td,.table-condensed>tfoot>tr>th,.table-condensed>tfoot>tr>td{padding:5px}.table-bordered{border:1px solid #ddd}.table-bordered>thead>tr>th,.table-bordered>thead>tr>td,.table-bordered>tbody>tr>th,.table-bordered>tbody>tr>td,.table-bordered>tfoot>tr>th,.table-bordered>tfoot>tr>td{border:1px solid #ddd}.table-bordered>thead>tr>th,.table-bordered>thead>tr>td{border-bottom-width:2px}.table-striped>tbody>tr:nth-child(odd){background-color:#f9f9f9}.table-hover>tbody>tr:hover{background-color:#f5f5f5}table col[class*="col-"]{position:static;float:none;display:table-column}table td[class*="col-"],table th[class*="col-"]{position:static;float:none;display:table-cell}.table>thead>tr>td.active,.table>thead>tr>th.active,.table>thead>tr.active>td,.table>thead>tr.active>th,.table>tbody>tr>td.active,.table>tbody>tr>th.active,.table>tbody>tr.active>td,.table>tbody>tr.active>th,.table>tfoot>tr>td.active,.table>tfoot>tr>thtenthash=1891683196
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3520954859 contenthash=2509049088
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3527489568 contenthash=3836768630
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3528246009 contenthash=2560132318
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3529412538 contenthash=1187798193
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3530105029 contenthash=1307371167
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3535993575 contenthash=2989765154
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3544398501 contenthash=4146389930
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3551011466 contenthash=515446240
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3551304570 contenthash=246010129
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3554080383 contenthash=3833528644
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3556221173 contenthash=1177115042
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3561333977 contenthash=1601644971
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3568780451 contenthash=2847430547
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3572171252 contenthash=2655526016
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3575849436 contenthash=2331134280
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3590670635 contenthash=1813720025
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3595988712 contenthash=3654226980
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3596248831 contenthash=2537503186
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3596905073 contenthash=1060566630
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3598405377 contenthash=4264105165
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3603227740 contenthash=465905904
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3605572245 contenthash=460198805
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3611708285 contenthash=2723288680
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3615641403 contenthash=376965562
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3619386144 contenthash=780708883
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3619847635 contenthash=669159842
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3622133010 contenthash=2839796718
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3626040789 contenthash=1337507139
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3629512203 contenthash=3047444079
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3629992968 contenthash=2793828814
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3641349434 contenthash=1933623164
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3642107289 contenthash=707242225
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3645231938 contenthash=3133714686
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3646624356 contenthash=936623716
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3652459872 contenthash=2619519707
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3661718872 contenthash=2857862955
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3662289857 contenthash=689389715
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3662964658 contenthash=319616882
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3663476633 contenthash=2563928348
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3666075978 contenthash=3408138713
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3682298314 contenthash=703184940
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3682501305 contenthash=3569259560
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3684364778 contenthash=3943875814
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3684914204 contenthash=4280401215
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3685017662 contenthash=1389233425
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3690913122 contenthash=1264601525
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3693697512 contenthash=4054445181
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3708414887 contenthash=2107594415
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3714877870 contenthash=1644978674
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3717752096 contenthash=1219714445
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3719878266 contenthash=3401772076
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3722633801 contenthash=688134415
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3727949854 contenthash=1517957402
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3731136747 contenthash=4243954530
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3734316770 contenthash=4262736449
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3743097717 contenthash=104377715
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3744593586 contenthash=3991254384
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3751210028 contenthash=4076224292
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3753226920 contenthash=2692238900
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3753573087 contenthash=1374402891
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3760050184 contenthash=2573118320
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3763483691 contenthash=478449439
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3764526140 contenthash=3058442093
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3767771008 contenthash=2934173467
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3770282786 contenthash=25845749
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3782786942 contenthash=4194728761
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3785766865 contenthash=4223865654
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3786927336 contenthash=1170463503
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3788074649 contenthash=761279045
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3789648042 contenthash=3986929575
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3796118374 contenthash=1790021189
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3798171813 contenthash=3807303688
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3798656700 contenthash=2621769686
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3806775024 contenthash=2417819814
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3814802712 contenthash=2258698908
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3821169579 contenthash=3924023406
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3823132905 contenthash=2318975168
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3861240239 contenthash=626672070
+2015/12/30:06:07:15.563[40:003456]SensorHashNoTemp bucket=3 namehash=3867657808 contenthash=542084608
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3868118771 contenthash=1958126338
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3878363268 contenthash=1043324264
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3879435929 contenthash=4283434881
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3881863289 contenthash=2983381655
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3886911816 contenthash=1397191009
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3891170751 contenthash=808938256
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3898138660 contenthash=2741571992
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3903947007 contenthash=2425480691
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3914171274 contenthash=3285988433
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3915559635 contenthash=1666983783
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3920503974 contenthash=37681208
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3931990640 contenthash=2364083390
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3945470672 contenthash=78231199
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3947031474 contenthash=3931540090
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3948536569 contenthash=3838906742
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3950633986 contenthash=3470927087
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3957460633 contenthash=1837353868
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3958277108 contenthash=213794642
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3961550571 contenthash=2555499484
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3962261762 contenthash=538555742
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3963156324 contenthash=3999496691
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3963413687 contenthash=3221303454
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3969091474 contenthash=812700655
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3971797232 contenthash=4120643486
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3973828276 contenthash=2920929641
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3993657420 contenthash=1908129866
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3997800780 contenthash=3087202607
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=3999173666 contenthash=358402878
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4008943778 contenthash=2919574541
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4009012114 contenthash=2767856052
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4017486980 contenthash=3613738288
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4018912755 contenthash=3089148466
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4046819443 contenthash=3906026366
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4054661139 contenthash=3604183886
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4055028299 contenthash=2463406763
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4058321794 contenthash=2463129909
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4065014241 contenthash=603032747
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4068731155 contenthash=2117571146
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4070262781 contenthash=1589998971
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4072758985 contenthash=216696469
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4073591448 contenthash=156141860
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4076878703 contenthash=1303774791
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4078011104 contenthash=1876645199
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4079855748 contenthash=2948055631
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4080631087 contenthash=645999247
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4083638402 contenthash=4098245053
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4086041268 contenthash=3396068199
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4086117820 contenthash=438648121
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4086596771 contenthash=1867705793
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4092934760 contenthash=1936426213
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4100458738 contenthash=3233552424
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4105783647 contenthash=765746639
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4109775931 contenthash=4216304194
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4112343849 contenthash=2026373481
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4117529004 contenthash=3590606606
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4118090245 contenthash=3398967615
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4122594545 contenthash=3111470298
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4127509916 contenthash=136090506
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4133915453 contenthash=1862308449
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4140752592 contenthash=3487345379
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4141078038 contenthash=1369304188
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4142232197 contenthash=1968750053
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4151691638 contenthash=1752204782
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4152509489 contenthash=1171852090
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4164189203 contenthash=899240170
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4165545489 contenthash=3204933066
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4175301984 contenthash=3644460414
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4179279988 contenthash=2150699154
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4180356655 contenthash=831292021
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4187016545 contenthash=2010468614
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4191267132 contenthash=95481884
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4196541968 contenthash=3289389123
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4198794062 contenthash=4172563095
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4201347922 contenthash=3702132890
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4203533580 contenthash=1245370691
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4206305749 contenthash=4119922548
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4206488295 contenthash=3241921490
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4212162125 contenthash=1055080199
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4213159728 contenthash=1589893887
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4213758291 contenthash=3801248237
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4225944416 contenthash=249932750
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4225957259 contenthash=836329493
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4227840981 contenthash=102754583
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4244179900 contenthash=3801217221
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4244410676 contenthash=2545598764
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4249179859 contenthash=100100584
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4251177783 contenthash=1676897455
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4254566410 contenthash=123159641
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4256880109 contenthash=2973044760
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4260178531 contenthash=1768087040
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4261354259 contenthash=3086449536
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4264207873 contenthash=4011786897
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4264271977 contenthash=227427717
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4267153065 contenthash=255241239
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4269230392 contenthash=3171569812
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4275897659 contenthash=4027255194
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4276555360 contenthash=3079670175
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4279567267 contenthash=3705850941
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4281338319 contenthash=1285968482
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4284507739 contenthash=2356375797
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4293389196 contenthash=3440867367
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp bucket=3 namehash=4294740371 contenthash=3294012784
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp tophash=972187258
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp tophash=1923853914
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp tophash=1773661428
+2015/12/30:06:07:15.564[40:003456]SensorHashNoTemp tophash=2486362683
+2015/12/30:06:07:15.564[00:003456]Forcing Registration
+2015/12/30:06:07:15.678[00:000000]End Continuous Log Batch
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   57060 contenthash=1359062517
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=440657042 contenthash=2195916393
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=442658857 contenthash=1276312550
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=443412787 contenthash=634738991
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=458062203 contenthash=2583288829
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=462732724 contenthash=2600923453
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=467848836 contenthash=1002936629
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=478487578 contenthash=2139532667
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=482346946 contenthash=4027473353
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=483510344 contenthash=3291486066
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=486332082 contenthash=1363126856
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=487354270 contenthash=2652901368
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=487883112 contenthash=165306027
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=488010600 contenthash=3515819614
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=491675994 contenthash=1382268289
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=496577653 contenthash=3772976669
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=502812713 contenthash=3391413161
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=508127351 contenthash=2371230187
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=508630093 contenthash=2008759579
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=513058399 contenthash=1210935584
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=525163843 contenthash=4286669266
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=525718215 contenthash=2026818834
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=528471618 contenthash=3936752243
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=530116561 contenthash=401025286
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=533135859 contenthash=165517721
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=542266296 contenthash=3928612268
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=549503533 contenthash=1592499606
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=553725118 contenthash=1923745809
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=557391002 contenthash=3694316645
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=558954146 contenthash=2413207623
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=559741705 contenthash=1371465835
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=560208596 contenthash=64546385
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=568581921 contenthash=3639072431
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=570790253 contenthash=2572705134
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=578458856 contenthash=3691017309
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=580949283 contenthash=309844834
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=585456892 contenthash=2949071811
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=589354906 contenthash=939009515
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=589589358 contenthash=2087032659
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=589734566 contenthash=995080756
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=590837956 contenthash=252588956
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=600562575 contenthash=1310769049
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=601571508 contenthash=511048458
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=607666494 contenthash=3729009889
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=617664531 contenthash=179289192
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=621090211 contenthash=510765116
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=627591892 contenthash=3692012790
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=632662206 contenthash=545315495
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=639409920 contenthash=3878490757
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=641805145 contenthash=1789683296
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=660299004 contenthash=3809012487
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=662678625 contenthash=3106737328
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=664237249 contenthash=1105750585
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=665508060 contenthash=2150543884
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=670520317 contenthash=920731445
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=676468157 contenthash=4222164681
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=677064059 contenthash=1137849688
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=678267731 contenthash=2464614319
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=679909726 contenthash=3966653704
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=689238090 contenthash=3973023354
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=689502547 contenthash=821434678
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=700549609 contenthash=1944302913
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=706826961 contenthash=3025657001
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=707253484 contenthash=4159044915
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=707290480 contenthash=3599981577
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=707695030 contenthash=4192214564
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=711837192 contenthash=800068130
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=720006308 contenthash=1670370736
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=721020399 contenthash=16047391
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=722919258 contenthash=1494385457
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=732965965 contenthash=3659367286
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=734020330 contenthash=915097418
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=735521711 contenthash=3252340124
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=735542789 contenthash=2374576181
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=736815333 contenthash=1063056230
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=739764549 contenthash=1854050416
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=740857544 contenthash=1579098936
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=745447734 contenthash=998339573
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=747106243 contenthash=272727286
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=749653644 contenthash=891702806
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=750828673 contenthash=4016384094
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=755202736 contenthash=2079146990
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=759059104 contenthash=1305630102
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=762809308 contenthash=3339539706
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=765942402 contenthash=3237294717
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=768359727 contenthash=3442918506
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=773449288 contenthash=968154563
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=773616914 contenthash=1502617764
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=779282769 contenthash=2696129692
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=779762327 contenthash=2968005751
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=780044882 contenthash=2506473657
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=782305667 contenthash=1845465749
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=788726589 contenthash=2068288155
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=794103688 contenthash=357150356
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=795677867 contenthash=658342617
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=801419063 contenthash=2522514379
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=801908140 contenthash=3889231634
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=804704536 contenthash=3808876365
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=811505475 contenthash=3623354989
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=824239263 contenthash=3720481997
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=830377119 contenthash=32123743
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=833799742 contenthash=1980416638
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=834791399 contenthash=2464178114
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=845147658 contenthash=3017069633
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=851156788 contenthash=484241048
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=853585198 contenthash=2340269052
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=855891586 contenthash=309542355
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=856087598 contenthash=4102537962
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=856826002 contenthash=1232370066
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=861367460 contenthash=4061166551
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=865123401 contenthash=2185541577
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=867160258 contenthash=3403264427
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=876725971 contenthash=3695385411
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=882649991 contenthash=2832500434
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=885259283 contenthash=418225210
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=889071797 contenthash=15602281
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=892119042 contenthash=3883391014
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=894238410 contenthash=4020723258
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=902205018 contenthash=1596875169
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=905484135 contenthash=2891312808
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=916410332 contenthash=4222300005
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=923740265 contenthash=2828285611
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=926096714 contenthash=1190734740
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=926119908 contenthash=622044281
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=930837896 contenthash=3349664919
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=932508344 contenthash=471447109
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=945314213 contenthash=1436154651
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=945351187 contenthash=3400354618
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=953427826 contenthash=2902986423
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=956515908 contenthash=1802779052
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=960144197 contenthash=1206007162
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=962086055 contenthash=2777048367
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=969736519 contenthash=1892303965
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=977430711 contenthash=2816914239
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=984393076 contenthash=3926291278
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=984953868 contenthash=2017192200
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=985799204 contenthash=4136203123
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=991644931 contenthash=3395115281
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=1010825454 contenthash=3264458938
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=1012019733 contenthash=2898505101
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=1016740112 contenthash=352609722
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=1016916291 contenthash=134825857
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=1022769818 contenthash=2544424375
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=1039470236 contenthash=3931209953
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=1043670154 contenthash=3468810553
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=1046354727 contenthash=3533679153
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=1047049318 contenthash=3042031757
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=1053039240 contenthash=1465747910
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=0 namehash=1065011811 contenthash=1409897541
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1076605530 contenthash=3123701501
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1080362841 contenthash=520476631
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1083610808 contenthash=3578670585
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1092986182 contenthash=3015521180
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1096615317 contenthash=3824092118
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1097405078 contenthash=811885041
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1100786740 contenthash=3942039045
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1101836903 contenthash=1225598942
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1111762152 contenthash=2438730179
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1114146405 contenthash=1245755644
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1125023461 contenthash=3224124957
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1128635825 contenthash=1212114847
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1132013379 contenthash=3763590563
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1138812284 contenthash=3351842107
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1139027437 contenthash=3881424128
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1140552555 contenthash=3586406337
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1142505852 contenthash=3546323008
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1147279237 contenthash=1434932912
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1154425412 contenthash=2341870822
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1155294592 contenthash=1909582202
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1156943497 contenthash=977933595
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1165275020 contenthash=2386611419
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1176227460 contenthash=611542152
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1181240715 contenthash=2051068874
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1184239319 contenthash=590889251
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1185924075 contenthash=3485384347
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1193384089 contenthash=641083390
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1206550580 contenthash=1884820048
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1208633896 contenthash=3201333141
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1211382204 contenthash=3557814619
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1212604670 contenthash=2701646660
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1220267691 contenthash=1831356849
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1223061891 contenthash=88765651
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1240245618 contenthash=738652830
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1242926811 contenthash=3141240818
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1244581312 contenthash=1317699675
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1247546398 contenthash=82261219
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1248029610 contenthash=1428842199
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1250495219 contenthash=2856887115
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1257375613 contenthash=790158575
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1259847112 contenthash=3455028536
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1260624634 contenthash=4039304052
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1260646358 contenthash=407370248
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1263879283 contenthash=726618683
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1265351278 contenthash=1818319852
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1266771582 contenthash=829309909
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1269378923 contenthash=3905806241
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1271450145 contenthash=2656728554
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1280971771 contenthash=122010855
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1281370578 contenthash=1434360841
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1285889501 contenthash=1830632352
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1286763246 contenthash=1346079443
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1295528437 contenthash=1246928022
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1297468944 contenthash=387344740
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1301746479 contenthash=1514272750
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1302957088 contenthash=1657462598
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1305969442 contenthash=2391653110
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1314534715 contenthash=3607382292
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1314773172 contenthash=3575507768
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1315630323 contenthash=1528450983
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1326015223 contenthash=1550099709
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1330061333 contenthash=3407084796
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1334531708 contenthash=3745247947
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1348043492 contenthash=1432438458
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1348161929 contenthash=2692713510
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1350912439 contenthash=1500440005
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1369766323 contenthash=2813389674
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1371254184 contenthash=484081062
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1374547302 contenthash=3080061415
+2015/12/30:06:18:30.962[40:003456]SensorHashNoTemp bucket=1 namehash=1374583828 contenthash=1460445996
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1387340650 contenthash=1936386219
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1388814144 contenthash=1884884147
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1390174259 contenthash=1633419842
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1391517255 contenthash=354456914
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1396298954 contenthash=1176784964
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1401657851 contenthash=936135466
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1404374135 contenthash=3082556666
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1407638259 contenthash=3185246887
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1407684392 contenthash=109804404
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1417112132 contenthash=1453278404
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1431219001 contenthash=519075147
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1434351235 contenthash=1188065138
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1447614700 contenthash=1346241444
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1450323545 contenthash=3811877218
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1453502334 contenthash=1419031778
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1457701687 contenthash=447300287
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1458467336 contenthash=657901351
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1463691416 contenthash=4024818124
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1465480406 contenthash=3293425050
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1466287287 contenthash=505403803
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1466668831 contenthash=1724404345
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1469085758 contenthash=842019692
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1469517636 contenthash=2008580733
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1471370561 contenthash=23216184
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1479021709 contenthash=2613025510
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1481468083 contenthash=3504529581
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1487792243 contenthash=1478284219
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1487793113 contenthash=2563590615
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1487793983 contenthash=3446225381
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1488397328 contenthash=3309791236
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1488400808 contenthash=3273999760
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1488401678 contenthash=2727406210
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1488402548 contenthash=2850508539
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1488403418 contenthash=2297001718
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1494742436 contenthash=3126906604
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1496471156 contenthash=2824840846
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1497251383 contenthash=4242094637
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1502679547 contenthash=185251650
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1507273975 contenthash=1508043320
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1509255291 contenthash=1377126540
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1509606217 contenthash=3727159076
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1510672363 contenthash=1846375388
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1511329504 contenthash=851726733
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1512811088 contenthash=3368899025
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1516240744 contenthash=4190405349
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1516371640 contenthash=490498531
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1517048168 contenthash=3290108509
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1526750078 contenthash=2548060351
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1527458369 contenthash=494423466
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1528412180 contenthash=1825648030
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1534058314 contenthash=2039711058
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1539923519 contenthash=3548862974
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1543520788 contenthash=1275576392
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1544486184 contenthash=1214197524
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1559575076 contenthash=4042491532
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1559751995 contenthash=3197528737
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1562519982 contenthash=976976049
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1569955801 contenthash=1798346913
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1579270802 contenthash=960521995
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1580351176 contenthash=7114077
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1582126011 contenthash=2236969501
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1585464992 contenthash=818024621
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1590423367 contenthash=1838624127
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1591480148 contenthash=787103959
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1591958393 contenthash=3960156781
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1599773855 contenthash=828472708
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1601080456 contenthash=631949424
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1604482050 contenthash=1272558442
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1620668880 contenthash=343097026
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1625547728 contenthash=515111070
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1631144425 contenthash=4136069151
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1631658844 contenthash=4129489640
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1632898178 contenthash=303545034
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1646244079 contenthash=2133139887
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1647269418 contenthash=1483231958
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1647800633 contenthash=2437958145
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1652607578 contenthash=4123679801
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1661774027 contenthash=1855448283
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1665646432 contenthash=2822106935
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1666713228 contenthash=951884436
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1667754137 contenthash=766766544
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1670489640 contenthash=2843530230
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1678498699 contenthash=431455881
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1688928675 contenthash=276448872
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1704353665 contenthash=134873177
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1706625572 contenthash=826495341
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1718946935 contenthash=1813954853
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1723627713 contenthash=3407849603
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1724798097 contenthash=2579045236
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1727222054 contenthash=58802877
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1734603801 contenthash=4052478610
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1735107559 contenthash=3830804710
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1742036917 contenthash=2654665417
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1742608101 contenthash=3334289601
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1744818157 contenthash=2319385835
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1766886049 contenthash=3365974360
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1773001148 contenthash=2022009187
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1782389954 contenthash=2970175272
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1785623864 contenthash=869460588
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1792443391 contenthash=3859652993
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1797065800 contenthash=1458642129
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1801963148 contenthash=2285343649
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1805210070 contenthash=2273795230
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1806420230 contenthash=2814941025
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1810333216 contenthash=3133944496
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1815624605 contenthash=1118530353
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1815821395 contenthash=634433963
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1819649983 contenthash=3191855571
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1822485306 contenthash=1297043206
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1831904365 contenthash=375674943
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1832324705 contenthash=3000321021
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1834293127 contenthash=3942640372
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1838308761 contenthash=3499090172
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1845399463 contenthash=3595248189
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1847073276 contenthash=1625387030
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1847227474 contenthash=3103851963
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1849288420 contenthash=970294431
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1858683838 contenthash=4212854887
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1865030669 contenthash=2482942784
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1865193433 contenthash=231684096
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1870326250 contenthash=3534570108
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1872660430 contenthash=2698342639
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1887596730 contenthash=2015564957
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1892948342 contenthash=3119406403
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1893299822 contenthash=2498940403
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1893759015 contenthash=1353187182
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1893897077 contenthash=2089305143
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1894247252 contenthash=2458902254
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1900770817 contenthash=2857778636
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1906221031 contenthash=1208044100
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1908875301 contenthash=1868124776
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1913997657 contenthash=3704085611
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1923294441 contenthash=2018478372
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1924514264 contenthash=1206679785
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1927765752 contenthash=961989334
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1927941770 contenthash=4267560077
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1941702267 contenthash=3015199625
+2015/12/30:06:18:30.963[40:003456]SensorHashNoTemp bucket=1 namehash=1966435811 contenthash=806366765
+2015/12/30:06:18:30.963[40:003456]SensorHas( i p h t t p s i n t e r f a c e :   D e r e f e r e n c e   I P T L S   c l i e n t   i n t e r f a c e   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s c l i e n t . c : 1 1 1 7  
+ [ 9 2 6 0 ]   1 0 : 3 0 : 5 4 :   ( i p h t t p s i n t e r f a c e :   D e r e f e r e n c e   I P T L S   c l i e n t   i n t e r f a c e   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s c l i e n t . c : 1 5 3 4  
+ [ 9 2 6 0 ]   1 0 : 3 0 : 5 4 :   ( i p h t t p s i n t e r f a c e :   R e f e r e n c e   I P T L S   i n t e r f a c e   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s . c : 6 3 8  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 4 :   ( D e r e f e r e n c e   I P T L S   B u f f e r ( 5 2 9 1 0 C 0 ) d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s c l i e n t . c : 1 5 6 5  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 4 :   ( i p h t t p s i n t e r f a c e :   D e r e f e r e n c e   I P T L S   i n t e r f a c e   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s . c : 5 8 0  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( i p h t t p s i n t e r f a c e :   R e f e r e n c e   I P T L S   c l i e n t   i n t e r f a c e   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s c l i e n t . c : 1 4 5 2  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( i p h t t p s i n t e r f a c e :   R e f e r e n c e   I P T L S   c l i e n t   i n t e r f a c e   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s c l i e n t . c : 1 1 9 5  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( R e f e r e n c e   I P T L S   B u f f e r ( 9 6 7 9 9 A 0 )   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s . c : 3 4 5 5  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( D e r e f e r e n c e   I P T L S   B u f f e r ( 9 6 7 9 9 A 0 ) d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s . c : 4 1 8 4  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( i p h t t p s i n t e r f a c e :   D e r e f e r e n c e   I P T L S   c l i e n t   i n t e r f a c e   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s c l i e n t . c : 1 5 3 4  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( i p h t t p s i n t e r f a c e :   R e f e r e n c e   I P T L S   c l i e n t   i n t e r f a c e   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s c l i e n t . c : 1 4 5 2  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( i p h t t p s i n t e r f a c e :   R e f e r e n c e   I P T L S   c l i e n t   i n t e r f a c e   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s c l i e n t . c : 1 1 9 5  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( D e r e f e r e n c e   I P T L S   B u f f e r ( 9 6 7 9 9 A 0 ) d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s . c : 3 3 6 5  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( i p h t t p s i n t e r f a c e :   D e r e f e r e n c e   I P T L S   c l i e n t   i n t e r f a c e   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s c l i e n t . c : 1 1 1 7  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( R e f e r e n c e   I P T L S   B u f f e r ( 9 6 8 9 A E 0 )   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s . c : 6 9 4  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( D e r e f e r e n c e   I P T L S   B u f f e r ( 9 6 8 9 A E 0 ) d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s . c : 4 1 8 4  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( i p h t t p s i n t e r f a c e :   D e r e f e r e n c e   I P T L S   c l i e n t   i n t e r f a c e   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s c l i e n t . c : 1 5 3 4  
+ [ 9 2 6 0 ]   1 0 : 3 0 : 5 5 :   ( D e r e f e r e n c e   I P T L S   B u f f e r ( 9 6 8 9 A E 0 ) d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s . c : 7 5 3  
+ [ 9 2 6 0 ]   1 0 : 3 0 : 5 5 :   ( i p h t t p s i n t e r f a c e :   D e r e f e r e n c e   I P T L S   c l i e n t   i n t e r f a c e   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s c l i e n t . c : 1 1 1 7  
+ [ 9 2 6 0 ]   1 0 : 3 0 : 5 5 :   ( i p h t t p s i n t e r f a c e :   R e f e r e n c e   I P T L S   i n t e r f a c e   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s . c : 6 3 8  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( D e r e f e r e n c e   I P T L S   B u f f e r ( 9 7 0 9 5 1 0 ) d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s c l i e n t . c : 1 5 6 5  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( i p h t t p s i n t e r f a c e :   D e r e f e r e n c e   I P T L S   i n t e r f a c e   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s . c : 5 8 0  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( i p h t t p s i n t e r f a c e :   R e f e r e n c e   I P T L S   c l i e n t   i n t e r f a c e   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s c l i e n t . c : 1 4 5 2  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( i p h t t p s i n t e r f a c e :   R e f e r e n c e   I P T L S   c l i e n t   i n t e r f a c e   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s c l i e n t . c : 1 1 9 5  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( R e f e r e n c e   I P T L S   B u f f e r ( 9 6 9 1 B 8 0 )   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s . c : 3 4 5 5  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( D e r e f e r e n c e   I P T L S   B u f f e r ( 9 6 9 1 B 8 0 ) d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s . c : 4 1 8 4  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( i p h t t p s i n t e r f a c e :   D e r e f e r e n c e   I P T L S   c l i e n t   i n t e r f a c e   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s c l i e n t . c : 1 5 3 4  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( i p h t t p s i n t e r f a c e :   R e f e r e n c e   I P T L S   c l i e n t   i n t e r f a c e   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s c l i e n t . c : 1 4 5 2  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( i p h t t p s i n t e r f a c e :   R e f e r e n c e   I P T L S   c l i e n t   i n t e r f a c e   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s c l i e n t . c : 1 1 9 5  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( D e r e f e r e n c e   I P T L S   B u f f e r ( 9 6 9 1 B 8 0 ) d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s . c : 3 3 6 5  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( i p h t t p s i n t e r f a c e :   D e r e f e r e n c e   I P T L S   c l i e n t   i n t e r f a c e   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s c l i e n t . c : 1 1 1 7  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   i p h t t p s i n t e r f a c e :   N S   R e c e i v e d   f o r   2 6 2 0 : 0 : a 1 0 : 8 a 4 : 1 5 3 d : 2 e 7 5 : f 3 9 5 : 6 f 3 9  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( R e f e r e n c e   I P T L S   B u f f e r ( 9 6 8 9 A E 0 )   d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s . c : 6 9 4  
+ [ 3 8 0 0 ]   1 0 : 3 0 : 5 5 :   ( D e r e f e r e n c e   I P T L S   B u f f e r ( 9 6 8 9 A E 0 ) d : \ w i n 7 s p 1 _ l d r \ n e t \ n e t i o \ i p h l p s v c \ s e r v i c e \ i p t l s . c : 4 1 8 4  
+ [ 9 2 6 0 ]   1 0 : 3 0 : 5 5 :   ( D e r e f e r e n c e   I P T L S   B u f f e r ( 9 6 8 td:first-child{border-left:0}.panel>.table-bordered>thead>tr>th:last-child,.panel>.table-bordered>thead>tr>td:last-child,.panel>.table-bordered>tbody>tr>th:last-child,.panel>.table-bordered>tbody>tr>td:last-child,.panel>.table-bordered>tfoot>tr>th:last-child,.panel>.table-bordered>tfoot>tr>td:last-child,.panel>.table-responsive>.table-bordered>thead>tr>th:last-child,.panel>.table-responsive>.table-bordered>thead>tr>td:last-child,.panel>.table-responsive>.table-bordered>tbody>tr>th:last-child,.panel>.table-responsive>.table-bordered>tbody>tr>td:last-child,.panel>.table-responsive>.table-bordered>tfoot>tr>th:last-child,.panel>.table-responsive>.table-bordered>tfoot>tr>td:last-child{border-right:0}.panel>.table-bordered>thead>tr:first-child>td,.panel>.table-bordered>thead>tr:first-child>th,.panel>.table-bordered>tbody>tr:first-child>td,.panel>.table-bordered>tbody>tr:first-child>th,.panel>.table-responsive>.table-bordered>thead>tr:first-child>td,.panel>.table-responsive>.table-bordered>thead>tr:first-child>th,.panel>.table-responsive>.table-bordered>tbody>tr:first-child>td,.panel>.table-responsive>.table-bordered>tbody>tr:first-child>th{border-bottom:0}.panel>.table-bordered>tbody>tr:last-child>td,.panel>.table-bordered>tbody>tr:last-child>th,.panel>.table-bordered>tfoot>tr:last-child>td,.panel>.table-bordered>tfoot>tr:last-child>th,.panel>.table-responsive>.table-bordered>tbody>tr:last-child>td,.panel>.table-responsive>.table-bordered>tbody>tr:last-child>th,.panel>.table-responsive>.table-bordered>tfoot>tr:last-child>td,.panel>.table-responsive>.table-bordered>tfoot>tr:last-child>th{border-bottom:0}.panel>.table-responsive{border:0;margin-bottom:0}.panel-group{margin-bottom:20px}.panel-group .panel{margin-bottom:0;border-radius:4px}.panel-group .panel+.panel{margin-top:5px}.panel-group .panel-heading{border-bottom:0}.panel-group .panel-heading+.panel-collapse>.panel-body,.panel-group .panel-heading+.panel-collapse>.list-group{border-top:1px solid #ddd}.panel-group .panel-footer{border-top:0}.panel-group .panel-footer+.panel-collapse .panel-body{border-bottom:1px solid #ddd}.panel-default{border-color:#ddd}.panel-default>.panel-heading{color:#333;background-color:#f5f5f5;border-color:#ddd}.panel-default>.panel-heading+.panel-collapse>.panel-body{border-top-color:#ddd}.panel-default>.panel-heading .badge{color:#f5f5f5;background-color:#333}.panel-default>.panel-footer+.panel-collapse>.panel-body{border-bottom-color:#ddd}.panel-primary{border-color:#337ab7}.panel-primary>.panel-heading{color:#fff;background-color:#337ab7;border-color:#337ab7}.panel-primary>.panel-heading+.panel-collapse>.panel-body{border-top-color:#337ab7}.panel-primary>.panel-heading .badge{color:#337ab7;background-color:#fff}.panel-primary>.panel-footer+.panel-collapse>.panel-body{border-bottom-color:#337ab7}.panel-success{border-color:#d6e9c6}.panel-success>.panel-heading{color:#3c763d;background-color:#dff0d8;border-color:#d6e9c6}.panel-success>.panel-heading+.panel-collapse>.panel-body{border-top-color:#d6e9c6}.panel-success>.panel-heading .badge{color:#dff0d8;background-color:#3c763d}.panel-success>.panel-footer+.panel-collapse>.panel-body{border-bottom-color:#d6e9c6}.panel-info{border-color:#bce8f1}.panel-info>.panel-heading{color:#31708f;background-color:#d9edf7;border-color:#bce8f1}.panel-info>.panel-heading+.panel-collapse>.panel-body{border-top-color:#bce8f1}.panel-info>.panel-heading .badge{color:#d9edf7;background-color:#31708f}.panel-info>.panel-footer+.panel-collapse>.panel-body{border-bottom-color:#bce8f1}.panel-warning{border-color:#faebcc}.panel-warning>.panel-heading{color:#8a6d3b;background-color:#fcf8e3;border-color:#faebcc}.panel-warning>.panel-heading+.panel-collapse>.panel-body{border-top-color:#faebcc}.panel-warning>.panel-heading .badge{color:#fcf8e3;background-color:#8a6d3b}.panel-warning>.panel-footer+.panel-collapse>.panel-body{border-bottom-color:#faebcc}.panel-danger{border-color:#ebccd1}.panel-danger>.panel-heading{color:#a94442;background-color:#f2dede;border-color:#ebccd1}.panel-danger>.panel-heading+.panel-collapse>.panel-body{border-top-color:#ebccd1}.panel-danger>.panel-heading .badge{color:#f2dede;background-color:#a94442}.panel-danger>.panel-footer+.panel-collapse>.panel-body{border-bottom-color:#ebccd1}.embed-responsive{position:relative;display:block;height:0;padding:0;overflow:hidden}.embed-responsive .embed-responsive-item,.embed-responsive iframe,.embed-responsive embed,.embed-responsive object,.embed-responsive video{position:absolute;top:0;left:0;bottom:0;height:100%;width:100%;border:0}.embed-responsive.embed-responsive-16by9{padding-bottom:56.25%}.embed-responsive.embed-responsive-4by3{padding-bottom:75%}.well{min-height:20px;padding:19px;margin-bottom:20px;background-color:#f5f5f5;border:1px solid #e3e3e3;border-radius:4px;box-shadow:inset 0 1px 1px rgba(0,0,0,0.05)}.well blockquote{border-color:#ddd;border-color:rgba(0,0,0,0.15)}.well-lg{padding:24px;border-radius:6px}.well-sm{padding:9px;border-radius:3px}.close{float:right;font-size:21px;font-weight:bold;line-height:1;color:#000;text-shadow:0 1px 0 #fff;opacity:0.2;filter:alpha(opacity=20)}.close:hover,.close:focus{color:#000;text-decoration:none;cursor:pointer;opacity:0.5;filter:alpha(opacity=50)}button.close{padding:0;cursor:pointer;background:transparent;border:0;-webkit-appearance:none}.modal-open{overflow:hidden}.modal{display:none;overflow:hidden;position:fixed;top:0;right:0;bottom:0;left:0;z-index:1040;-webkit-overflow-scrolling:touch;outline:0}.modal.fade .modal-dialog{-webkit-transform:translate(0, -25%);-ms-transform:translate(0, -25%);transform:translate(0, -25%);-webkit-transition:-webkit-transform 0.3s ease-out;transition:transform 0.3s ease-out}.modal.in .modal-dialog{-webkit-transform:translate(0, 0);-ms-transform:translate(0, 0);transform:translate(0, 0)}.modal-open .modal{overflow-x:hidden;overflow-y:auto}.modal-dialog{position:relative;width:auto;margin:10px}.modal-content{position:relative;background-color:#fff;border:1px solid #999;border:1px solid rgba(0,0,0,0.2);border-radius:6px;box-shadow:0 3px 9px rgba(0,0,0,0.5);background-clip:padding-box;outline:0}.modal-backdrop{position:absolute;top:0;right:0;left:0;background-color:#000}.modal-backdrop.fade{opacity:0;filter:alpha(opacity=0)}.modal-backdrop.in{opacity:0.5;filter:alpha(opacity=50)}.modal-header{padding:15px;border-bottom:1px solid #e5e5e5;min-height:16.428571429px}.modal-header .close{margin-top:-2px}.modal-title{margin:0;line-height:1.428571429}.modal-body{position:relative;padding:15px}.modal-footer{padding:15px;text-align:right;border-top:1px solid #e5e5e5}.modal-footer:before,.modal-footer:after{content:" ";display:table}.modal-footer:after{clear:both}.modal-footer .btn+.btn{margin-left:5px;margin-bottom:0}.modal-footer .btn-group .btn+.btn{margin-left:-1px}.modal-footer .btn-block+.btn-block{margin-left:0}.modal-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}@media (min-width: 768px){.modal-dialog{width:600px;margin:30px auto}.modal-content{box-shadow:0 5px 15px rgba(0,0,0,0.5)}.modal-sm{width:300px}}@media (min-width: 992px){.modal-lg{width:900px}}.tooltip{position:absolute;z-index:1070;display:block;visibility:visible;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:12px;font-weight:normal;line-height:1.4;opacity:0;filter:alpha(opacity=0)}.tooltip.in{opacity:0.9;filter:alpha(opacity=90)}.tooltip.top{margin-top:-3px;padding:5px 0}.tooltip.right{margin-left:3px;padding:0 5px}.tooltip.bottom{margin-top:3px;padding:5px 0}.tooltip.left{margin-left:-3px;padding:0 5px}.tooltip-inner{max-width:200px;padding:3px 8px;color:#fff;text-align:center;text-decoration:none;background-color:#000;border-radius:4px}.tooltip-arrow{position:absolute;width:0;height:0;border-color:transparent;border-style:solid}.tooltip.top .tooltip-arrow{bottom:0;left:50%;margin-left:-5px;border-width:5px 5px 0;border-top-color:#000}.tooltip.top-left .tooltip-arrow{bottom:0;right:5px;margin-bottom:-5px;border-width:5px 5px 0;border-top-color:#000}.tooltip.top-right .tooltip-arrow{bottom:0;left:5px;margin-bottom:-5px;border-width:5px 5px 0;border-top-color:#000}.tooltip.right .tooltip-arrow{top:50%;left:0;margin-top:-5px;border-width:5px 5px 5px 0;border-right-color:#000}.tooltip.left .tooltip-arrow{top:50%;right:0;margin-top:-5px;border-width:5px 0 5px 5px;border-left-color:#000}.tooltip.bottom .tooltip-arrow{top:0;left:50%;margin-left:-5px;border-width:0 5px 5px;border-bottom-color:#000}.tooltip.bottom-left .tooltip-arrow{top:0;right:5px;margin-top:-5px;border-width:0 5px 5px;border-bottom-color:#000}.tooltip.bottom-right .tooltip-arrow{top:0;left:5px;margin-top:-5px;border-width:0 5px 5px;border-bottom-color:#000}.popover{position:absolute;top:0;left:0;z-index:1060;display:none;max-width:276px;padding:1px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;font-weight:normal;line-height:1.428571429;text-align:left;background-color:#fff;background-clip:padding-box;border:1px solid #ccc;border:1px solid rgba(0,0,0,0.2);border-radius:6px;box-shadow:0 5px 10px rgba(0,0,0,0.2);white-space:normal}.popover.top{margin-top:-10px}.popover.right{margin-left:10px}.popover.bottom{margin-top:10px}.popover.left{margin-left:-10px}.popover-title{margin:0;padding:8px 14px;font-size:14px;background-color:#f7f7f7;border-bottom:1px solid #ebebeb;border-radius:5px 5px 0 0}.popover-content{padding:9px 14px}.popover>.arrow,.popover>.arrow:after{position:absolute;display:block;width:0;height:0;border-color:transparent;border-style:solid}.popover>.arrow{border-width:11px}.popover>.arrow:after{border-width:10px;content:""}.popover.top>.arrow{left:50%;margin-left:-11px;border-bottom-width:0;border-top-color:#999;border-top-color:rgba(0,0,0,0.25);bottom:-11px}.popover.top>.arrow:after{content:" ";bottom:1px;margin-left:-10px;border-bottom-width:0;border-top-color:#fff}.popover.right>.arrow{top:50%;left:-11px;margin-top:-11px;border-left-width:0;border-right-color:#999;border-right-color:rgba(0,0,0,0.25)}.popover.right>.arrow:after{content:" ";left:1px;bottom:-10px;border-left-width:0;border-right-color:#fff}.popover.bottom>.arrow{left:50%;margin-left:-11px;border-top-width:0;border-bottom-color:#999;border-bottom-color:rgba(0,0,0,0.25);top:-11px}.popover.bottom>.arrow:after{content:" ";top:1px;margin-left:-10px;border-top-width:0;border-bottom-color:#fff}.popover.left>.arrow{top:50%;right:-11px;margin-top:-11px;border-right-width:0;border-left-color:#999;border-left-color:rgba(0,0,0,0.25)}.popover.left>.arrow:after{content:" ";right:1px;border-right-width:0;border-left-color:#fff;bottom:-10px}.carousel{position:relative}.carousel-inner{position:relative;overflow:hidden;width:100%}.carousel-inner>.item{display:none;position:relative;-webkit-transition:0.6s ease-in-out left;transition:0.6s ease-in-out left}.carousel-inner>.item>img,.carousel-inner>.item>a>img{display:block;max-width:100%;height:auto;line-height:1}@media all and (transform-3d), (-webkit-transform-3d){.carousel-inner>.item{-webkit-transition:-webkit-transform .6s ease-in-out;transition:transform .6s ease-in-out;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-perspective:1000;perspective:1000}.carousel-inner>.item.next,.carousel-inner>.item.active.right{-webkit-transform:translate3d(100%, 0, 0);transform:translate3d(100%, 0, 0);left:0}.carousel-inner>.item.prev,.carousel-inner>.item.active.left{-webkit-transform:translate3d(-100%, 0, 0);transform:translate3d(-100%, 0, 0);left:0}.carousel-inner>.item.next.left,.carousel-inner>.item.prev.right,.carousel-inner>.item.active{-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);left:0}}.carousel-inner>.active,.carousel-inner>.next,.carousel-inner>.prev{display:block}.carousel-inner>.active{left:0}.carousel-inner>.next,.carousel-inner>.prev{position:absolute;top:0;width:100%}.carousel-inner>.next{left:100%}.carousel-inner>.prev{left:-100%}.carousel-inner>.next.left,.carousel-inner>.prev.right{left:0}.carousel-inner>.active.left{left:-100%}.carousel-inner>.active.right{left:100%}.carousel-control{position:absolute;top:0;left:0;bottom:0;width:15%;opacity:0.5;filter:alpha(opacity=50);font-size:20px;color:#fff;text-align:center;text-shadow:0 1px 2px rgba(0,0,0,0.6)}.carousel-control.left{background-image:-webkit-linear-gradient(left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.0001) 100%);background-image:linear-gradient(to right, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.0001) 100%);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1)}.carousel-control.right{left:auto;right:0;background-image:-webkit-linear-gradient(left, rgba(0,0,0,0.0001) 0%, rgba(0,0,0,0.5) 100%);background-image:linear-gradient(to right, rgba(0,0,0,0.0001) 0%, rgba(0,0,0,0.5) 100%);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1)}.carousel-control:hover,.carousel-control:focus{outline:0;color:#fff;text-decoration:none;opacity:0.9;filter:alpha(opacity=90)}.carousel-control .icon-prev,.carousel-control .icon-next,.carousel-control .glyphicon-chevron-left,.carousel-control .glyphicon-chevron-right{position:absolute;top:50%;z-index:5;display:inline-block}.carousel-control .icon-prev,.carousel-control .glyphicon-chevron-left{left:50%;margin-left:-10px}.carousel-control .icon-next,.carousel-control .glyphicon-chevron-right{right:50%;margin-right:-10px}.carousel-control .icon-prev,.carousel-control .icon-next{width:20px;height:20px;margin-top:-10px;font-family:serif}.carousel-control .icon-prev:before{content:'\2039'}.carousel-control .icon-next:before{content:'\203a'}.carousel-indicators{position:absolute;bottom:10px;left:50%;z-index:15;width:60%;margin-left:-30%;padding-left:0;list-style:none;text-align:center}.carousel-indicators li{display:inline-block;width:10px;height:10px;margin:1px;text-indent:-999px;border:1px solid #fff;border-radius:10px;cursor:pointer;background-color:#000 \9;background-color:transparent}.carousel-indicators .active{margin:0;width:12px;height:12px;background-color:#fff}.carousel-caption{position:absolute;left:15%;right:15%;bottom:20px;z-index:10;padding-top:20px;padding-bottom:20px;color:#fff;text-align:center;text-shadow:0 1px 2px rgba(0,0,0,0.6)}.carousel-caption .btn{text-shadow:none}@media screen and (min-width: 768px){.carousel-control .glyphicon-chevron-left,.carousel-control .glyphicon-chevron-right,.carousel-control .icon-prev,.carousel-control .icon-next{width:30px;height:30px;margin-top:-15px;font-size:30px}.carousel-control .glyphicon-chevron-left,.carousel-control .icon-prev{margin-left:-15px}.carousel-control .glyphicon-chevron-right,.carousel-control .icon-next{margin-right:-15px}.carousel-caption{left:20%;right:20%;padding-bottom:30px}.carousel-indicators{bottom:20px}}.clearfix:before,.clearfix:after{content:" ";display:table}.clearfix:after{clear:both}.center-block{display:block;margin-left:auto;margin-right:auto}.pull-right{float:right !important}.pull-left{float:left !important}.hide{display:none !important}.show{display:block !important}.invisible{visibility:hidden}.text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}.hidden{display:none !important;visibility:hidden !important}.affix{position:fixed}@-ms-viewport{width:device-width}.visible-xs,.visible-sm,.visible-md,.visible-lg{display:none !important}.visible-xs-block,.visible-xs-inline,.visible-xs-inline-block,.visible-sm-block,.visible-sm-inline,.visible-sm-inline-block,.visible-md-block,.visible-md-inline,.visible-md-inline-block,.visible-lg-block,.visible-lg-inline,.visible-lg-inline-block{display:none !important}@media (max-width: 767px){.visible-xs{display:block !important}table.visible-xs{display:table}tr.visible-xs{display:table-row !important}th.visible-xs,td.visible-xs{display:table-cell !important}}@media (max-width: 767px){.visible-xs-block{display:block !important}}@media (max-width: 767px){.visible-xs-inline{display:inline !important}}@media (max-width: 767px){.visible-xs-inline-block{display:inline-block !important}}@media (min-width: 768px) and (max-width: 991px){.visible-sm{display:block !important}table.visible-sm{display:table}tr.visible-sm{display:table-row !important}th.visible-sm,td.visible-sm{display:table-cell !important}}@media (min-width: 768px) and (max-width: 991px){.visible-sm-block{display:block !important}}@media (min-width: 768px) and (max-width: 991px){.visible-sm-inline{display:inline !important}}@media (min-width: 768px) and (max-width: 991px){.visible-sm-inline-block{display:inline-block !important}}@media (min-width: 992px) and (max-width: 1199px){.visible-md{display:block !important}table.visible-md{display:table}tr.visible-md{display:table-row !important}th.visible-md,td.visible-md{display:table-cell !important}}@media (min-width: 992px) and (max-width: 1199px){.visible-md-block{display:block !important}}@media (min-width: 992px) and (max-width: 1199px){.visible-md-inline{display:inline !important}}@media (min-width: 992px) and (max-width: 1199px){.visible-md-inline-block{display:inline-block !important}}@media (min-width: 1200px){.visible-lg{display:block !important}table.visible-lg{display:table}tr.visible-lg{display:table-row !important}th.visible-lg,td.visible-lg{display:table-cell !important}}@media (min-width: 1200px){.visible-lg-block{display:block !important}}@media (min-width: 1200px){.visible-lg-inline{display:inline !important}}@media (min-width: 1200px){.visible-lg-inline-block{display:inline-block !important}}@media (max-width: 767px){.hidden-xs{display:none !important}}@media (min-width: 768px) and (max-width: 991px){.hidden-sm{display:none !important}}@media (min-width: 992px) and (max-width: 1199px){.hidden-md{display:none !important}}@media (min-width: 1200px){.hidden-lg{display:none !important}}.visible-print{display:none !important}@media print{.visible-print{display:block !important}table.visible-print{display:table}tr.visible-print{display:table-row !important}th.visible-print,td.visible-print{display:table-cell !important}}.visible-print-block{display:none !important}@media print{.visible-print-block{display:block !important}}.visible-print-inline{display:none !important}@media print{.visible-print-inline{display:inline !important}}.visible-print-inline-block{display:none !important}@media print{.visible-print-inline-block{display:inline-block !important}}@media print{.hidden-print{display:none !important}}
